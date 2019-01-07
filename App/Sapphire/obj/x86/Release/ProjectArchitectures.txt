@@ -1,0 +1,2 @@
+C:\Users\Roitberg Lab\Desktop\Sapphire\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Roitberg Lab\Desktop\Sapphire\App\Sapphire\Sapphire.csproj;x86
