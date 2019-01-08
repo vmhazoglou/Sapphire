@@ -28,11 +28,15 @@ public class ParseXYZ : MonoBehaviour
     int atomE, frameE;
 
     public void LoadMolecule()
-    {
+	{
 #if !UNITY_EDITOR
 		filestring = Manager.GetComponent<OpenFileButton>().filestring;
 #endif
-        istream = new AntlrInputStream(filestring);
+
+		// First we will get all info from the frames using ANTLR4
+		// We start this on new threads and then join them at the end for a small processing speedup
+
+		istream = new AntlrInputStream(filestring);
         lexer = new XYZLexer(istream);
         tokens = new CommonTokenStream(lexer);
         parser = new XYZParser(tokens);
@@ -46,17 +50,7 @@ public class ParseXYZ : MonoBehaviour
         framenum = fileContext.frame().Length;
         molecule = new atominfo[framenum, top.NATOM];
 
-        double st = Time.realtimeSinceStartup;
-
-
-
-        // This next chunk (filling molecule[,] on four threads) takes approx 0.1 seconds
-        /*
-        GetX();
-        GetY();
-        GetZ();
-        GetE();
-        */
+        //double st = Time.realtimeSinceStartup;
 
         atomX = 0; frameX = 0;
         atomY = 0; frameY = 0;
@@ -77,29 +71,7 @@ public class ParseXYZ : MonoBehaviour
         Z.Wait();
         E.Wait();
         
-
-        Debug.Log($"0:{Time.realtimeSinceStartup - st}");
-        // First we will get all info from the frames using ANTLR4
-        // We start this on new threads and then join them at the end for a small processing speedup
-
-        /*
-        Thread X = new Thread(new ThreadStart(GetX));
-        Thread Y = new Thread(new ThreadStart(GetY));
-        Thread Z = new Thread(new ThreadStart(GetZ));
-        Thread E = new Thread(new ThreadStart(GetE));
-
-        X.Start();
-        Y.Start();
-        Z.Start();
-        E.Start();
-
-        X.Join();
-        Y.Join();
-        Z.Join();
-        E.Join();
-        */
-        //
-
+        // Debug.Log($"0:{Time.realtimeSinceStartup - st}");
 
         // fill out top.NATOM with the total number of atoms and pass it to Load
         Manager.GetComponent<Load>().top.NATOM = top.NATOM;
@@ -116,7 +88,7 @@ public class ParseXYZ : MonoBehaviour
         framenum = 0;
     }
 
-    // Slower
+    // Slower, unused
     private void GetAll()
     {
         foreach (XYZParser.FrameContext frameContext in fileContext.frame())

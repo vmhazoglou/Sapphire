@@ -383,17 +383,17 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\ffixv\Desktop\Sapphire\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{5d3bca3e-be10-4917-b7ad-e078a997e8e1}</Project>
+      <Project>{f5827c8d-e83f-492b-b07a-fc1f7486638a}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\ffixv\Desktop\Sapphire\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj">
-      <Project>{1cd94dd3-049e-4c2d-8428-88c829429dfb}</Project>
+      <Project>{37e52f63-da67-4b6a-8525-7a0361725a59}</Project>
       <Name>Unity.TextMeshPro</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\ffixv\Desktop\Sapphire\App\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj">
-      <Project>{1917f308-51e2-4e79-8a66-4c428fce4d1d}</Project>
+      <Project>{ec2e6bef-db96-4f6c-83d1-288916becf49}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
       <Private>False</Private>
     </ProjectReference>

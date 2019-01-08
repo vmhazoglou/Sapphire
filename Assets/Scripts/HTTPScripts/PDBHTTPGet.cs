@@ -15,9 +15,14 @@ public class PDBHTTPGet : MonoBehaviour {
 	public string PDBID;
 	public Text txt, consoleText;
 	public string outputfile;
+	public GameObject Keyboard;
 
-	// Use this for initialization
-	void Start () {
+	public void wakeup()
+	{
+		id = txt.text;
+
+		GameObject.Find("Manager").GetComponent<PDBHTTPGet>().enabled = true;
+		Keyboard.SetActive(false);
 	}
 
 	private void OnEnable()
@@ -47,20 +52,6 @@ public class PDBHTTPGet : MonoBehaviour {
 
 	*/
 	}
-	public GameObject Keyboard;
-	public void wakeup()
-	{
-		id = txt.text;
-
-		GameObject.Find("Manager").GetComponent<PDBHTTPGet>().enabled = true;
-		Keyboard.SetActive(false);
-	}
-
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 }
 
 

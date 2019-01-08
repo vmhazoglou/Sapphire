@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{aea3443c-92fa-4ac0-bcd3-abd246e0aa75}</ProjectGuid>
+    <ProjectGuid>{8f1f4f0a-4ade-4cc0-b8c8-46209ff15cf0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,10 +131,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\ffixv\Desktop\Sapphire\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj">
-      <Project>{68ddacfd-208b-4101-8591-09f5e20fca48}</Project>
+      <Project>{e75968c1-bca1-4a55-8bac-d22a799f951a}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>    <ProjectReference Include="C:\Users\ffixv\Desktop\Sapphire\App\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj">
-      <Project>{7c9a445d-0163-4e5a-bbdf-8a49dec99a9b}</Project>
+      <Project>{e2156669-eb85-48a5-8951-99b939cddff7}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
     <Reference Include="UnityEngine.SpriteMaskModule">

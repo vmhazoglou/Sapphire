@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{68ddacfd-208b-4101-8591-09f5e20fca48}</ProjectGuid>
+    <ProjectGuid>{e75968c1-bca1-4a55-8bac-d22a799f951a}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -381,140 +381,140 @@
     <SDKReference Include="WindowsTeam, Version=10.0.16299.0"/>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\FastAction.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\FastAction.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\FastAction.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\FastAction.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\MaterialReferenceManager.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\MaterialReferenceManager.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\MaterialReferenceManager.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\MaterialReferenceManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\PackageResourceImporterWindow.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\PackageResourceImporterWindow.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\PackageResourceImporterWindow.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\PackageResourceImporterWindow.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextContainer.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextContainer.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextContainer.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextContainer.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshPro.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshPro.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshPro.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshPro.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshProUGUI.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshProUGUI.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshProUGUI.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshProUGUI.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Asset.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Asset.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Asset.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Asset.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ColorGradient.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ColorGradient.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ColorGradient.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ColorGradient.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Compatibility.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Compatibility.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Compatibility.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Compatibility.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_CoroutineTween.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_CoroutineTween.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_CoroutineTween.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_CoroutineTween.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_DefaultControls.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_DefaultControls.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_DefaultControls.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_DefaultControls.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Dropdown.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Dropdown.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Dropdown.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Dropdown.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_FontAsset.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_FontAsset.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_FontAsset.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_FontAsset.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputField.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputField.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputField.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputField.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputValidator.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputValidator.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputValidator.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputValidator.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_LineInfo.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_LineInfo.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_LineInfo.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_LineInfo.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ListPool.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ListPool.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ListPool.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ListPool.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MaterialManager.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MaterialManager.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MaterialManager.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MaterialManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MeshInfo.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MeshInfo.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MeshInfo.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MeshInfo.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ObjectPool.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ObjectPool.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ObjectPool.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ObjectPool.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ScrollbarEventHandler.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ScrollbarEventHandler.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ScrollbarEventHandler.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ScrollbarEventHandler.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SelectionCaret.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SelectionCaret.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SelectionCaret.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SelectionCaret.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Settings.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Settings.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Settings.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Settings.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Sprite.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Sprite.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Sprite.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Sprite.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAnimator.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAnimator.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAnimator.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAnimator.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAsset.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAsset.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAsset.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAsset.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Style.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Style.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Style.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Style.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_StyleSheet.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_StyleSheet.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_StyleSheet.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_StyleSheet.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMesh.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMesh.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMesh.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMesh.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMeshUI.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMeshUI.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMeshUI.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMeshUI.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Text.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Text.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Text.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Text.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextElement.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextElement.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextElement.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextElement.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextInfo.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextInfo.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextInfo.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextInfo.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextUtilities.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextUtilities.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextUtilities.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextUtilities.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateManager.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateManager.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateManager.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateRegistery.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateRegistery.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateRegistery.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateRegistery.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_XmlTagStack.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_XmlTagStack.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_XmlTagStack.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_XmlTagStack.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_EventManager.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_EventManager.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_EventManager.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_EventManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ExtensionMethods.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ExtensionMethods.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ExtensionMethods.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ExtensionMethods.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_FontUtilities.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_FontUtilities.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_FontUtilities.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_FontUtilities.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_MeshUtilities.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_MeshUtilities.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_MeshUtilities.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_MeshUtilities.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_Private.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_Private.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_Private.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_Private.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ShaderUtilities.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ShaderUtilities.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ShaderUtilities.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ShaderUtilities.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_UGUI_Private.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_UGUI_Private.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_UGUI_Private.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_UGUI_Private.cs</Link>
     </Compile>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

@@ -15,7 +15,7 @@ public class LoadXYZ : MonoBehaviour {
     public string modelregex;
 
     public atominfo[,] molecule;
-    string filestring;
+    public string filestring;
     public topinfo top;
 
     public void hoopla()
@@ -25,10 +25,10 @@ public class LoadXYZ : MonoBehaviour {
     }
     public void LoadMolecule()
     {
-        filestring = Manager.GetComponent<OpenFileButton>().filestring;
-
+#if !UNITY_EDITOR
+		filestring = Manager.GetComponent<OpenFileButton>().filestring;
+#endif
         // TODO: display an error if filestring is null
-
 
         // First we will get the frames using Regex.Split
         GetFrames();
@@ -64,10 +64,10 @@ public class LoadXYZ : MonoBehaviour {
         top.NATOM = Convert.ToInt32(b1.ToString());
 
 		// We can use the top line and Regex.Split to create an array of the frames
-        string[] substrings = Regex.Split(Manager.GetComponent<OpenFileButton>().filestring, $"^{b1.ToString()}(\n|\r)", RegexOptions.Multiline);
+		string[] substrings = Regex.Split(filestring, $"^{b1.ToString()}", RegexOptions.Multiline);
 
 		// Skip the top one bc it's null
-        foreach (string match in substrings.Skip(1)) // TODO: Replace some junk in LoadPDB by using LINQ's skip function
+		foreach (string match in substrings.Skip(1)) // TODO: Replace some junk in LoadPDB by using LINQ's skip function
         {
             if (!Models.Contains(match))
 			{
@@ -83,7 +83,6 @@ public class LoadXYZ : MonoBehaviour {
      * Group 2: X
      * Group 3: Y
      * Group 4: Z
-     *
      * 
      */
 

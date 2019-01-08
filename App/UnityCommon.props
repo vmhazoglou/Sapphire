@@ -2,7 +2,7 @@
     <PropertyGroup>
         <UnityWSASolutionName>Sapphire</UnityWSASolutionName>
         <UnityWSASolutionDir>C:\Users\ffixv\Desktop\Sapphire\App\</UnityWSASolutionDir>
-        <UnityProjectDir>C:\Users\ffixv\Desktop\Sapphire\</UnityProjectDir>
+        <UnityProjectDir>C:\Users\ffixv\Desktop\Sapphire-master\</UnityProjectDir>
         <UnityWSAPlayerDir>C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
         <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
     </PropertyGroup>

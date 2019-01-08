@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7c9a445d-0163-4e5a-bbdf-8a49dec99a9b}</ProjectGuid>
+    <ProjectGuid>{e2156669-eb85-48a5-8951-99b939cddff7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -381,14 +381,14 @@
     <SDKReference Include="WindowsTeam, Version=10.0.16299.0"/>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\AssemblyInfo.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\AssemblyInfo.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\AssemblyInfo.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\AssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacy.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacy.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacy.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacy.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs">
-      <Link>s\ffixv\Desktop\Sapphire\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs</Link>
+    <Compile Include="C:\Users\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs">
+      <Link>s\ffixv\Desktop\Sapphire-master\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs</Link>
     </Compile>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

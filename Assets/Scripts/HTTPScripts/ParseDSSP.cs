@@ -9,7 +9,7 @@ using UnityEngine.UI;
 using Data.AppColors;
 using System.Threading.Tasks;
 
-// this script needs to be cleaned up
+// This script needs to be cleaned up
 
 public class ParseDSSP : MonoBehaviour
 {
@@ -306,8 +306,7 @@ public class ParseDSSP : MonoBehaviour
             MoleculeHolder.transform.localScale /= Math.Abs(rightX - leftX) / .3f;
         }
 
-        // god I hate string format over interpolated strings
-        // I can't fuckn read this
+		// change back to interpolated strings
         ConsoleText.text += string.Format("\n Cartoon structure drawn for PDB #{0}.", GetComponent<Load>().FileNumber);
         finishTime = Time.realtimeSinceStartup;
         ConsoleText.text += string.Format("\n Time taken to draw: {0} seconds.\n", (finishTime - startTime));
@@ -332,7 +331,6 @@ public class ParseDSSP : MonoBehaviour
         ThisPDB.AddComponent<MeshRenderer>().material = GameObject.Find("MoleculeCollection").GetComponent<MeshRenderer>().material;
         ThisPDB.GetComponent<MeshRenderer>().enabled = false;
         GetComponent<Load>().FileNumber++;
-
     }
 
     public Material BoundingBoxHandle, BoundingBoxHandleGrabbed;

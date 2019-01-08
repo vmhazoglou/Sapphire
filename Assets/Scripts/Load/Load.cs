@@ -148,21 +148,17 @@ public class Load : MonoBehaviour
     public int FileNumber = 0;
     public Text consoletxt;
 
-    delegate Task LoadDel(GameObject ThisFile);
+    delegate void LoadDel(GameObject ThisFile);
     List<LoadDel> loadDel;
 
     Dictionary<string, List<string>> aabondlist;
 
     private void Start()
     {
-        // this is on upon startup so that bounding box works properly
-        // set it off so user doesn't see it
-        // (??))
-// *************************************************
         FilePrefab.SetActive(false);
+
         // Initialize a list of AA names to their corresponding list of bonds
-// *********************
-        // can we just make these lists uppercase and use nameof(variable)
+
         aabondlist = new Dictionary<string, List<string>>()
         {
             {"ALA", Ala },
@@ -200,10 +196,14 @@ public class Load : MonoBehaviour
 #endif
     }
 
-    public async void LoadMolecule()
+    public void LoadMolecule()
     {
         // testing out tuples
-        //var primes = Tuple.Create(1, 2, 3);
+        // var primes = Tuple.Create(1, 2, 3);
+
+		///
+		/// simplify everything with the aabondlist by using tuples 
+		/// 
 
         // Check if any file was loaded in
         if (Manager.GetComponent<OpenFileButton>().filestring == null)
@@ -214,7 +214,7 @@ public class Load : MonoBehaviour
 
         // Create a new FileObject
 
-        ThisFile = (GameObject)Instantiate(FilePrefab);
+        ThisFile = Instantiate(FilePrefab);
         ThisFile.transform.localScale = Vector3.one;
         ThisFile.SetActive(true);
         ThisFile.transform.parent = MoleculeCollection.transform;
@@ -232,7 +232,7 @@ public class Load : MonoBehaviour
 // ****************************
         //TODO: Do a try and if there is an exception that the index is too large or not found for array Rep then throw a "consoletxt += filetype not recognized"
 
-        await loadDel[Manager.GetComponent<Dropdowns>().filetypes.IndexOf(Manager.GetComponent<Dropdowns>().filetypeSelected) - 1](ThisFile); 
+        loadDel[Manager.GetComponent<Dropdowns>().filetypes.IndexOf(Manager.GetComponent<Dropdowns>().filetypeSelected) - 1](ThisFile); 
 
         ThisFile.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
 
@@ -240,8 +240,6 @@ public class Load : MonoBehaviour
         // Can we put this data directly in the right place instead of moving it around and then deleting it?
         Manager.GetComponent<OpenFileButton>().filestring = null;
         molecule = null;
-        //for (int g = 0; g < framenum; g++)
-        //    Bonds[g].Clear();
 
         FileNumber++;
 
@@ -250,7 +248,7 @@ public class Load : MonoBehaviour
         GC.Collect();
     }
 
-    async Task LoadPDB(GameObject ThisFile)
+    void LoadPDB(GameObject ThisFile)
     {
         //string pdbid = Regex.Match(Manager.GetComponent<OpenFileButton>().filestring, "HEADER\\s+....................................................(....)").Groups[1].ToString();
         //Manager.GetComponent<HttpTest>().PDBID = pdbid;
@@ -341,12 +339,13 @@ public class Load : MonoBehaviour
         consoletxt.text += $" Total time to load in PDB : {Time.realtimeSinceStartup - sstartt}";
     }
 
-    async Task LoadXYZ(GameObject ThisFile)
+    void LoadXYZ(GameObject ThisFile)
     {
         // Parse file to load in molecular data
-        //float st = Time.realtimeSinceStartup;
-        Manager.GetComponent<ParseXYZ>().LoadMolecule();
-        //Debug.Log(Time.realtimeSinceStartup - st);
+        float st = Time.realtimeSinceStartup;
+        Manager.GetComponent<LoadXYZ>().LoadMolecule();
+        Debug.Log(Time.realtimeSinceStartup - st);
+
         // Create an array (per frame) of a list of bonds
         ThisFile.GetComponent<ThisFileInfo>().Bonds = new List<Bonds>[framenum];
 

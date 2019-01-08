@@ -17,9 +17,10 @@ public class OpenFileButton : MonoBehaviour
     public string filestring, topfilestring, xfilestring;
     public GameObject LoadButton, HologramCollection;
     public Text ConsoleTex;
-	//public WSAStorageFile result;
-    public void ShowFileOpenPicker()
+
+	public void ShowFileOpenPicker()
     {
+		// File picker to be used on mixed reality device
 #if !UNITY_EDITOR
         // StopAllCoroutines();
 		HologramCollection.SetActive(false);
@@ -51,56 +52,30 @@ public class OpenFileButton : MonoBehaviour
             }
         });
 
-
-
         HologramCollection.SetActive(true);
 
         //GameObject.Find("Manager").GetComponent<Load>().LoadMolecule();
 
 #endif
 
-        // Consider using this to read line by line in some way
-        /*
-        foreach (string line in File.ReadLines(@"c:\file.txt", Encoding.UTF8))
-        {
-            // process the line
-        }
-        */
+		// Opening files from online sources for Unity testing
 
 #if UNITY_EDITOR
 
         GameObject Manager = GameObject.Find("Manager");
 
-        /*
-		var fileStream = new FileStream(@"C:\Users\Roitberg Lab\OneDrive\Test Files\PDB\1uao.pdb", FileMode.Open, FileAccess.Read);
-        using (var streamReader = new StreamReader(fileStream, Encoding.UTF8))
-        {
-            filestring = streamReader.ReadToEnd();
-        }
-        Manager.GetComponent<Load>().LoadMolecule();
-        */
-        
         Manager.GetComponent<Dropdowns>().filetypeSelected = "XYZ";
 
 		HttpClient httpClient = new HttpClient();
 
 		httpClient.GetString(new Uri("https://s3.us-east-2.amazonaws.com/sapphirefiles/IRC001+(2).xyz"), (r) =>
 		{
-			Debug.Log(r.Data.ToString());
-
-			gameObject.GetComponent<ParseXYZ>().filestring = r.Data.ToString();
+			filestring = r.Data.ToString();
+			gameObject.GetComponent<LoadXYZ>().filestring = r.Data.ToString();
 			gameObject.GetComponent<Load>().LoadMolecule();
 		});
-		/*
-        var fileStream = new FileStream(@"C:\Users\Roitberg Lab\OneDrive\Test Files\XYZ\dicysteine_dimer_alln.xyz", FileMode.Open, FileAccess.Read);
-        using (var streamReader = new StreamReader(fileStream, Encoding.UTF8))
-        {
-            filestring = streamReader.ReadToEnd();
 
-        }
-        Manager.GetComponent<Load>().LoadMolecule();
-        */
-
+		// Below is left as reference in case one is using two files, i.e. AMBER parm and crd
 
         /*
 

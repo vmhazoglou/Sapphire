@@ -60,9 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\003 Drawing Lines\src\LinesGL.cs" />
-    <Compile Include="Assets\003 Drawing Lines\src\LinesGR.cs" />
-    <Compile Include="Assets\003 Drawing Lines\src\LinesLR.cs" />
     <Compile Include="Assets\FixedAngularSize.cs" />
     <Compile Include="Assets\Holograms\Support\Fitbox\Fitbox.cs" />
     <Compile Include="Assets\Holograms\Support\Fitbox\Interpolator.cs" />
@@ -109,7 +106,6 @@
     <Compile Include="Assets\Scripts\DataStorage\ThisFileInfo.cs" />
     <Compile Include="Assets\Scripts\DismissOnSelect.cs" />
     <Compile Include="Assets\Scripts\FpsDisplay.cs" />
-    <Compile Include="Assets\Scripts\HTTPScripts\CPP.cs" />
     <Compile Include="Assets\Scripts\HTTPScripts\HttpTest.cs" />
     <Compile Include="Assets\Scripts\HTTPScripts\ParseDSSP.cs" />
     <Compile Include="Assets\Scripts\HTTPScripts\PDBHTTPGet.cs" />
@@ -790,7 +786,6 @@
     <None Include="Assets\UnityVC\StandardVC.shader" />
     <None Include="Assets\Resources\Atom Prefabs\hydrogen.shader" />
     <None Include="Assets\ToolKit\MixedRealityToolkit\Common\Shaders\Obsolete\UnlitConfigurable.shader" />
-    <None Include="Assets\003 Drawing Lines\src\BlackLine.shader" />
     <None Include="Assets\UnityVC\StandardSpecularVC.shader" />
     <None Include="Assets\ToolKit\MixedRealityToolkit\UX\Shaders\HUXButtonShader.shader" />
     <None Include="Assets\ToolKit\MixedRealityToolkit\SpatialUnderstanding\Materials\SpatialUnderstandingSurface.shader" />
